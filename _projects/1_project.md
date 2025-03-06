@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Evaluating Persuasiveness of Large Language Models
+description: Project for LLMs (11-667), CMU
+img: 
 importance: 1
-category: work
+category: projects
 related_publications: true
 ---
 
