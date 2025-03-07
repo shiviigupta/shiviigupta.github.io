@@ -4,27 +4,27 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-patents-amp-publications",
-          title: "patents &amp; publications",
+          title: "Patents &amp; Publications",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects-amp-papers",
-          title: "projects &amp; papers",
+          title: "Projects &amp; Papers",
           description: "A growing collection of my projects, reviews, and term papers",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-resume",
-          title: "resume",
+          title: "Resume",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -388,62 +388,7 @@ ninja.data = [{
           section: "News",},{id: "news-mortar-board-upcoming-ms-from-carnegie-mellon-university-with-a-major-in-electrical-engineering-concentration-in-ai-ml",
           title: ':mortar_board: [Upcoming] MS from Carnegie Mellon University with a major in Electrical Engineering,...',
           description: "",
-          section: "News",},{id: "projects-emotion-color-association-in-deep-neural-networks",
-          title: 'Emotion-Color Association in Deep Neural Networks',
-          description: "Undergraduate Project, IITK",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/10_project/";
-            },},{id: "projects-audio-tagging-and-sound-event-detection",
-          title: 'Audio Tagging and Sound Event Detection',
-          description: "Project for Machine Learning for Signal Processing, IITK",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/11_project/";
-            },},{id: "projects-behavioral-cloning-for-particle-accelerator-phase-control",
-          title: 'Behavioral Cloning for Particle Accelerator Phase Control',
-          description: "Project for Inter-University Accelerator Center (IUAC), Delhi",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/12_project/";
-            },},{id: "projects-sunspots-timeseries-predictions",
-          title: 'Sunspots Timeseries Predictions',
-          description: "Undergraduate Project, IITK",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/13_project/";
-            },},{id: "projects-brain-and-neural-network-understanding",
-          title: 'Brain and Neural Network Understanding',
-          description: "Mentored Project under Brain and Cognitive Science Society, IITK",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/14_project/";
-            },},{id: "projects-explainability-in-image-captioning-models",
-          title: 'Explainability in Image Captioning Models',
-          description: "Project for Deep Learning for Computer Vision, IITK",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/15_project/";
-            },},{id: "projects-evaluating-persuasiveness-of-large-language-models",
-          title: 'Evaluating Persuasiveness of Large Language Models',
-          description: "Project for LLMs (11-667), CMU",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-3d-object-grounding-with-generative-modeling",
-          title: '3D Object Grounding with Generative Modeling',
-          description: "Project for Multimodal Machine Learning (11-777), CMU",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-serverless-federated-multitask-learning-for-graph-neural-networks",
-          title: 'Serverless Federated Multitask Learning for Graph Neural Networks',
-          description: "Reproducibility study for Optimization (18-660), CMU",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-conditional-point-cloud-generation",
-          title: 'Conditional Point Cloud Generation',
-          description: "Project for Visual Learning and Recognition (16-824), CMU",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-self-configuring-graph-neural-networks",
-          title: 'Self Configuring Graph Neural Networks',
-          description: "Project for Graph Signal Processing and Geometric Learning (18-898), CMU",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-low-rank-adaptation-in-distributed-learning",
+          section: "News",},{id: "projects-low-rank-adaptation-in-distributed-learning",
           title: 'Low-Rank Adaptation in Distributed Learning',
           description: "Literature Review for Algorithms for Distributed Optimization (18-667), CMU",
           section: "Projects",handler: () => {
@@ -458,11 +403,61 @@ ninja.data = [{
           description: "Term Paper for Ethics and AI (46-898), CMU",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
+            },},{id: "projects-self-configuring-graph-neural-networks",
+          title: 'Self Configuring Graph Neural Networks',
+          description: "Project for Graph Signal Processing and Geometric Learning (18-898), CMU",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/GSP/";
+            },},{id: "projects-behavioral-cloning-for-particle-accelerator-phase-control",
+          title: 'Behavioral Cloning for Particle Accelerator Phase Control',
+          description: "Project for Inter-University Accelerator Center (IUAC), Delhi",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/IUAC/";
+            },},{id: "projects-evaluating-persuasiveness-of-large-language-models",
+          title: 'Evaluating Persuasiveness of Large Language Models',
+          description: "Project for LLMs (11-667), CMU",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/LLM/";
+            },},{id: "projects-3d-object-grounding-with-generative-modeling",
+          title: '3D Object Grounding with Generative Modeling',
+          description: "Project for Multimodal Machine Learning (11-777), CMU",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/MMML/";
+            },},{id: "projects-conditional-point-cloud-generation",
+          title: 'Conditional Point Cloud Generation',
+          description: "Project for Visual Learning and Recognition (16-824), CMU",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/VLR/";
             },},{id: "projects-balloon-analogue-risk-task-bart",
           title: 'Balloon Analogue Risk Task (BART)',
           description: "BART implementation with PsychoPy",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/bart/";
+            },},{id: "projects-emotion-color-association-in-deep-neural-networks",
+          title: 'Emotion-Color Association in Deep Neural Networks',
+          description: "Undergraduate Project, IITK",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cog/";
+            },},{id: "projects-explainability-in-image-captioning-models",
+          title: 'Explainability in Image Captioning Models',
+          description: "Project for Deep Learning for Computer Vision, IITK",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/dlcv/";
+            },},{id: "projects-audio-tagging-and-sound-event-detection",
+          title: 'Audio Tagging and Sound Event Detection',
+          description: "Project for Machine Learning for Signal Processing, IITK",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mlsp/";
+            },},{id: "projects-serverless-federated-multitask-learning-for-graph-neural-networks",
+          title: 'Serverless Federated Multitask Learning for Graph Neural Networks',
+          description: "Reproducibility study for Optimization (18-660), CMU",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/opt/";
+            },},{id: "projects-sunspots-timeseries-predictions",
+          title: 'Sunspots Timeseries Predictions',
+          description: "Undergraduate Project, IITK",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ssn/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
