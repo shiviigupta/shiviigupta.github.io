@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects & papers
+title: Projects & Papers
 permalink: /projects/
 description: A growing collection of my projects, reviews, and term papers
 nav: true

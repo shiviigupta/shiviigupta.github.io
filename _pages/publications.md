@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: patents & publications
+title: Patents & Publications
 description:
 nav: true
 nav_order: 2
