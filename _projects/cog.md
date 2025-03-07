@@ -3,7 +3,7 @@ layout: page
 title: Emotion-Color Association in Deep Neural Networks
 description: Undergraduate Project, IITK
 img: 
-importance: 7
+importance: 1
 category: projects
 related_publications: false
 github: https://github.com/shiviigupta/Emotion-color-association

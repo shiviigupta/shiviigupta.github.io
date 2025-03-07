@@ -3,7 +3,7 @@ layout: page
 title: Conditional Point Cloud Generation
 description: Project for Visual Learning and Recognition (16-824), CMU
 img: 
-importance: 4
+importance: 3
 category: projects
 related_publications: false
 pdf: https://drive.google.com/file/d/1O7YgiNW8SUSfWuVNAM1xwSci9ZJ8TaB3/view?usp=sharing

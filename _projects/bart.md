@@ -3,7 +3,7 @@ layout: page
 title: Balloon Analogue Risk Task (BART)
 description: BART implementation with PsychoPy
 img: 
-importance: 6
+importance: 12
 category: projects
 related_publications: false
 github: https://github.com/shiviigupta/BART

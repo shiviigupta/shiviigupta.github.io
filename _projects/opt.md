@@ -3,7 +3,7 @@ layout: page
 title: Serverless Federated Multitask Learning for Graph Neural Networks
 description: Reproducibility study for Optimization (18-660), CMU
 img: 
-importance: 3
+importance: 4
 category: projects
 related_publications: false
 pdf: https://drive.google.com/file/d/1Uu9tL4EpK_Xbi4YNJm4gTzKamAVYGyBT/view?usp=sharing
