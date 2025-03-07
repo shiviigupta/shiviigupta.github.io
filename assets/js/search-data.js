@@ -388,22 +388,7 @@ ninja.data = [{
           section: "News",},{id: "news-mortar-board-upcoming-ms-from-carnegie-mellon-university-with-a-major-in-electrical-engineering-concentration-in-ai-ml",
           title: ':mortar_board: [Upcoming] MS from Carnegie Mellon University with a major in Electrical Engineering,...',
           description: "",
-          section: "News",},{id: "projects-low-rank-adaptation-in-distributed-learning",
-          title: 'Low-Rank Adaptation in Distributed Learning',
-          description: "Literature Review for Algorithms for Distributed Optimization (18-667), CMU",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-policy-proposal-for-discrimination-in-xai-algorithms-for-lending",
-          title: 'Policy Proposal for Discrimination in xAI Algorithms for Lending',
-          description: "Term Paper for Ethics and AI (46-898), CMU",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-policy-proposal-for-fairness-in-healthcare-ai",
-          title: 'Policy Proposal for Fairness in Healthcare AI',
-          description: "Term Paper for Ethics and AI (46-898), CMU",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-self-configuring-graph-neural-networks",
+          section: "News",},{id: "projects-self-configuring-graph-neural-networks",
           title: 'Self Configuring Graph Neural Networks',
           description: "Project for Graph Signal Processing and Geometric Learning (18-898), CMU",
           section: "Projects",handler: () => {
@@ -443,6 +428,21 @@ ninja.data = [{
           description: "Project for Deep Learning for Computer Vision, IITK",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dlcv/";
+            },},{id: "projects-policy-proposal-for-discrimination-in-xai-algorithms-for-lending",
+          title: 'Policy Proposal for Discrimination in xAI Algorithms for Lending',
+          description: "Term Paper for Ethics and AI (46-898), CMU",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ethics_1/";
+            },},{id: "projects-policy-proposal-for-fairness-in-healthcare-ai",
+          title: 'Policy Proposal for Fairness in Healthcare AI',
+          description: "Term Paper for Ethics and AI (46-898), CMU",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ethics_2/";
+            },},{id: "projects-low-rank-adaptation-in-distributed-learning",
+          title: 'Low-Rank Adaptation in Distributed Learning',
+          description: "Literature Review for Algorithms for Distributed Optimization (18-667), CMU",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/lora/";
             },},{id: "projects-audio-tagging-and-sound-event-detection",
           title: 'Audio Tagging and Sound Event Detection',
           description: "Project for Machine Learning for Signal Processing, IITK",
